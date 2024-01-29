@@ -89,14 +89,6 @@ ssize_t get_input(info_t *info)
     return bytes_read; /* return length of buffer from _getline() */
 }
 
-/**
- * read_buffer - reads a buffer
- * @info: parameter struct
- * @buffer: buffer
- * @i: size
- *
- * Return: bytes read
- */
 ssize_t read_buffer(info_t *info, char *buffer, size_t *i)
 {
     ssize_t bytes_read = 0;
