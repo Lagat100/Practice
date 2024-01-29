@@ -1,9 +1,5 @@
 #include "shell.h"
 
-/**
- * initialize_info - initializes info_t struct
- * @info: struct address
- */
 void initialize_info(info_t *info)
 {
 	info->argument = NULL;
