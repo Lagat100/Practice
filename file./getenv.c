@@ -150,12 +150,6 @@ int custom_getline(info_t *info, char **ptr, size_t *length)
     return bytes_read;
 }
 
-/**
- * handle_interrupt - blocks ctrl-C
- * @signal_num: the signal number
- *
- * Return: void
- */
 void handle_interrupt(__attribute__((unused))int signal_num)
 {
     _puts("\n");
