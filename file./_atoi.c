@@ -1,11 +1,5 @@
 #include "shell.h"
 
-/**
- * is_interactive - returns true if shell is in interactive mode
- * @info: structure address
- *
- * Return: 1 if interactive mode, 0 otherwise
- */
 int is_interactive(info_t *info)
 {
     return (isatty(STDIN_FILENO) && info->read_fd <= 2);
