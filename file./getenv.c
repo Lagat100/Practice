@@ -101,14 +101,6 @@ ssize_t read_buffer(info_t *info, char *buffer, size_t *i)
     return bytes_read;
 }
 
-/**
- * custom_getline - gets the next line of input from STDIN
- * @info: parameter struct
- * @ptr: address of pointer to buffer, preallocated or NULL
- * @length: size of preallocated ptr buffer if not NULL
- *
- * Return: bytes read
- */
 int custom_getline(info_t *info, char **ptr, size_t *length)
 {
     static char buf[READ_BUF_SIZE];
