@@ -17,13 +17,6 @@ char **retrieve_environment(info_t *info)
 	return (info->environment);
 }
 
-/**
- * remove_environment_variable - Remove an environment variable
- * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
- *  Return: 1 on delete, 0 otherwise
- * @variable: the string env variable property
- */
 int remove_environment_variable(info_t *info, char *variable)
 {
 	list_t *node = info->env;
