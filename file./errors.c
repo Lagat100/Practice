@@ -1,11 +1,5 @@
 #include "shell.h"
 
-/**
- * print_error_message - prints an error message string
- * @str: the error message to be printed
- *
- * Return: Nothing
- */
 void print_error_message(char *str)
 {
     int i = 0;
