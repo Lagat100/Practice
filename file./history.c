@@ -52,12 +52,6 @@ int write_history(info_t *info)
 	return (1);
 }
 
-/**
- * read_history - reads history from file
- * @info: the parameter struct
- *
- * Return: histcount on success, 0 otherwise
- */
 int read_history(info_t *info)
 {
 	int i, last = 0, line_count = 0;
