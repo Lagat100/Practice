@@ -18,12 +18,6 @@ size_t list_len(const list_t *h)
     return i;
 }
 
-/**
- * list_to_strings - Returns an array of strings of the list->str
- * @head: Pointer to the first node
- *
- * Return: Array of strings
- */
 char **list_to_strings(list_t *head)
 {
     list_t *node = head;
