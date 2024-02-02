@@ -40,11 +40,6 @@ void configure_info(info_t *info, char **arguments)
 	}
 }
 
-/**
- * deallocate_info - frees info_t struct fields
- * @info: struct address
- * @all: true if freeing all fields
- */
 void deallocate_info(info_t *info, int all)
 {
 	ffree(info->arguments_vector);
