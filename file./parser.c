@@ -42,14 +42,6 @@ char *dup_chars(char *pathstr, int start, int stop)
 	return (buf);
 }
 
-/**
- *  * find_path - Finds this cmd in the PATH string.
- *   * @info: The info struct.
- *    * @pathstr: The PATH string.
- *     * @cmd: The cmd to find.
- *      *
- *       * Return: Full path of cmd if found or NULL.
- *        */
 char *find_path(shell_info_t *info, char *pathstr, char *cmd)
 {
 	int i = 0, curr_pos = 0;

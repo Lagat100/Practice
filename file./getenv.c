@@ -89,14 +89,6 @@ ssize_t get_input(info_t *info)
     return bytes_read; /* return length of buffer from _getline() */
 }
 
-/**
- * read_buffer - reads a buffer
- * @info: parameter struct
- * @buffer: buffer
- * @i: size
- *
- * Return: bytes read
- */
 ssize_t read_buffer(info_t *info, char *buffer, size_t *i)
 {
     ssize_t bytes_read = 0;
@@ -109,14 +101,6 @@ ssize_t read_buffer(info_t *info, char *buffer, size_t *i)
     return bytes_read;
 }
 
-/**
- * custom_getline - gets the next line of input from STDIN
- * @info: parameter struct
- * @ptr: address of pointer to buffer, preallocated or NULL
- * @length: size of preallocated ptr buffer if not NULL
- *
- * Return: bytes read
- */
 int custom_getline(info_t *info, char **ptr, size_t *length)
 {
     static char buf[READ_BUF_SIZE];
@@ -158,12 +142,6 @@ int custom_getline(info_t *info, char **ptr, size_t *length)
     return bytes_read;
 }
 
-/**
- * handle_interrupt - blocks ctrl-C
- * @signal_num: the signal number
- *
- * Return: void
- */
 void handle_interrupt(__attribute__((unused))int signal_num)
 {
     _puts("\n");

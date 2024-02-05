@@ -1,9 +1,5 @@
 #include "shell.h"
 
-/**
- * initialize_info - initializes info_t struct
- * @info: struct address
- */
 void initialize_info(info_t *info)
 {
 	info->argument = NULL;
@@ -44,11 +40,6 @@ void configure_info(info_t *info, char **arguments)
 	}
 }
 
-/**
- * deallocate_info - frees info_t struct fields
- * @info: struct address
- * @all: true if freeing all fields
- */
 void deallocate_info(info_t *info, int all)
 {
 	ffree(info->arguments_vector);
