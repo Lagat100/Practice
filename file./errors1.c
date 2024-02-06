@@ -115,12 +115,7 @@ char *convert_number_to_string(long int num, int base, int flags)
     return (ptr);
 }
 
-/**
- * replace_comment_with_null - function replaces first instance of '#' with '\0'
- * @buf: address of the string to modify
- *
- * Return: Always 0;
- */
+
 void replace_comment_with_null(char *buf)
 {
     int i;
