@@ -23,12 +23,7 @@ char *retrieve_history_file(info_t *info)
 	return (buf);
 }
 
-/**
- * write_history - creates a file, or appends to an existing file
- * @info: the parameter struct
- *
- * Return: 1 on success, else -1
- */
+
 int write_history(info_t *info)
 {
 	ssize_t fd;
