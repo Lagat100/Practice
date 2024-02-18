@@ -51,13 +51,7 @@ char *starts_with(const char *haystack, const char *needle)
 	return ((char *)haystack);
 }
 
-/**
- *  * _strcat - Concatenates two strings.
- *   * @dest: The destination buffer.
- *    * @src: The source buffer.
- *     *
- *      * Return: Pointer to the destination buffer.
- *       */
+
 char *_strcat(char *dest, char *src)
 {
 	char *ret = dest;
