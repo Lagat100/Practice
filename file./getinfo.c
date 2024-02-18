@@ -42,15 +42,7 @@ int remove_environment_variable(info_t *info, char *variable)
 	return (info->env_changed);
 }
 
-/**
- * set_environment_variable - Initialize a new environment variable,
- *             or modify an existing one
- * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
- * @variable: the string env variable property
- * @value: the string env variable value
- *  Return: Always 0
- */
+
 int set_environment_variable(info_t *info, char *variable, char *value)
 {
 	char *buffer = NULL;
