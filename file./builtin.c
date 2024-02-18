@@ -79,12 +79,7 @@ int change_directory(info_t *info)
     return (0);
 }
 
-/**
- * help_command - displays help message
- * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
- *  Return: Always 0
- */
+
 int help_command(info_t *info)
 {
     char **arg_array;
