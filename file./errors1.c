@@ -22,13 +22,7 @@ int string_to_integer(char *s)
     return (result);
 }
 
-/**
- * print_error_message - prints an error message
- * @info: the parameter & return info struct
- * @error_string: string containing specified error type
- * Return: 0 if no numbers in string, converted number otherwise
- *        -1 on error
- */
+
 void print_error_message(info_t *info, char *error_string)
 {
     print_to_stderr(info->filename);
