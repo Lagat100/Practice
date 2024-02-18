@@ -8,11 +8,7 @@ void initialize_info(info_t *info)
 	info->argument_count = 0;
 }
 
-/**
- * configure_info - initializes info_t struct
- * @info: struct address
- * @arguments: argument vector
- */
+
 void configure_info(info_t *info, char **arguments)
 {
 	int i = 0;
