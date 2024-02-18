@@ -26,11 +26,7 @@ int is_alpha(int c)
         return (0);
 }
 
-/**
- * string_to_int - converts a string to an integer
- * @s: the string to be converted
- * Return: 0 if no numbers in the string, the converted number otherwise
- */
+
 int string_to_int(char *s)
 {
     int i, sign = 1, flag = 0, output;
