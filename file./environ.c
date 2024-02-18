@@ -46,12 +46,7 @@ int set_environment_var(info_t *info)
     return (1);
 }
 
-/**
- * unset_environment_var - Remove an environment variable
- * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
- *  Return: Always 0
- */
+
 int unset_environment_var(info_t *info)
 {
     int i;
