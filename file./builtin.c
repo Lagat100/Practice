@@ -29,12 +29,7 @@ int exit_shell(info_t *info)
     return (-2);
 }
 
-/**
- * change_directory - changes the current directory of the process
- * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
- *  Return: Always 0
- */
+
 int change_directory(info_t *info)
 {
     char *s, *dir, buffer[1024];
