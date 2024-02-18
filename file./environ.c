@@ -62,12 +62,7 @@ int unset_environment_var(info_t *info)
     return (0);
 }
 
-/**
- * populate_environment_list - populates environment linked list
- * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
- * Return: Always 0
- */
+
 int populate_environment_list(info_t *info)
 {
     list_t *node = NULL;
