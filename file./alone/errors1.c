@@ -1,6 +1,5 @@
 #include "shell.h"
 
-
 int _erratoi(char *s)
 {
 	int i = 0;
