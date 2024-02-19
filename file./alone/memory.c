@@ -1,6 +1,5 @@
 #include "shell.h"
 
-
 int bfree(void **ptr)
 {
 	if (ptr && *ptr)
