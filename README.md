@@ -2,6 +2,6 @@
 
 - Practice always makes perfect 
 
-Just having fun here
+- Just having fun here
 
 Its all about getting to learn something different each day 
