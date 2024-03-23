@@ -13,11 +13,6 @@ int is_delim(char c, char *delim)
     return (0);
 }
 
-/**
- * is_alpha - checks for an alphabetic character
- * @c: The character to check
- * Return: 1 if c is alphabetic, 0 otherwise
- */
 int is_alpha(int c)
 {
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
