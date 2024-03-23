@@ -1,4 +1,4 @@
-Practicing a few things here and there
+- Practicing a few things here and there
 
 Practice always makes perfect 
 
