@@ -67,14 +67,7 @@ int print_decimal(int input, int fd)
     return (count);
 }
 
-/**
- * convert_number_to_string - converter function, a clone of itoa
- * @num: number
- * @base: base
- * @flags: argument flags
- *
- * Return: string
- */
+
 char *convert_number_to_string(long int num, int base, int flags)
 {
     static char *array;
