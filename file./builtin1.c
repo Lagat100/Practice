@@ -6,13 +6,7 @@ int display_history(info_t *info)
     return (0);
 }
 
-/**
- * remove_alias - removes an alias
- * @info: parameter struct
- * @str: the string alias
- *
- * Return: Always 0 on success, 1 on error
- */
+
 int remove_alias(info_t *info, char *str)
 {
     char *p, c;
