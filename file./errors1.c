@@ -34,13 +34,7 @@ void print_error_message(info_t *info, char *error_string)
     print_to_stderr(error_string);
 }
 
-/**
- * print_decimal - function prints a decimal (integer) number (base 10)
- * @input: the input
- * @fd: the file descriptor to write to
- *
- * Return: number of characters printed
- */
+
 int print_decimal(int input, int fd)
 {
     int (*print_char_func)(char) = print_char;
