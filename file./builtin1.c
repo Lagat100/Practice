@@ -61,12 +61,6 @@ int print_alias(list_t *node)
     return (1);
 }
 
-/**
- * handle_alias - mimics the alias builtin (man alias)
- * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
- *  Return: Always 0
- */
 int handle_alias(info_t *info)
 {
     int i = 0;
