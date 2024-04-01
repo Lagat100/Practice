@@ -23,13 +23,7 @@ int remove_alias(info_t *info, char *str)
     return (ret);
 }
 
-/**
- * add_alias - adds or modifies an alias
- * @info: parameter struct
- * @str: the string alias
- *
- * Return: Always 0 on success, 1 on error
- */
+
 int add_alias(info_t *info, char *str)
 {
     char *p;
