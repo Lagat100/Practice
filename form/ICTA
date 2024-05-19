@@ -19,6 +19,9 @@
       
       <label for="phone">Phone Number:</label>
       <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="ID">National ID Number:</label>
+      <input type="num" id="ID" name="ID NO" required><br><br>
       
       <label for="organization">Organization Name:</label>
       <input type="text" id="organization" name="organization" required><br><br>
