@@ -42,10 +42,3 @@ int string_to_int(char *s)
             flag = 2;
     }
 
-    if (sign == -1)
-        output = -result;
-    else
-        output = result;
-
-    return (output);
-}
