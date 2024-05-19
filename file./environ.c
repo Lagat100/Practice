@@ -12,13 +12,6 @@ int display_environment(info_t *info)
     return (0);
 }
 
-/**
- * get_environment_var - gets the value of an environment variable
- * @info: Structure containing potential arguments. Used to maintain
- * @name: environment variable name
- *
- * Return: the value
- */
 char *get_environment_var(info_t *info, const char *name)
 {
     list_t *node = info->env;
