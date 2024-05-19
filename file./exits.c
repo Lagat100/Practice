@@ -57,12 +57,6 @@ char *_custom_strncat(char *destination, char *source, int num)
     return (result);
 }
 
-/**
- **_custom_strchr - locates a character in a string
- *@str: the string to be parsed
- *@character: the character to look for
- *Return: (str) a pointer to the memory area str
- */
 char *_custom_strchr(char *str, char character)
 {
     do
