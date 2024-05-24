@@ -22,14 +22,7 @@ int is_cmd(shell_info_t *info, char *path)
 	return (0);
 }
 
-/**
- *  * dup_chars - Duplicates characters.
- *   * @pathstr: The PATH string.
- *    * @start: Starting index.
- *     * @stop: Stopping index.
- *      *
- *       * Return: Pointer to a new buffer.
- *        */
+
 char *dup_chars(char *pathstr, int start, int stop)
 {
 	static char buf[1024];
