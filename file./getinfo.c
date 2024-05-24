@@ -17,6 +17,8 @@ char **retrieve_environment(info_t *info)
 	return (info->environment);
 }
 
+
+
 int remove_environment_variable(info_t *info, char *variable)
 {
 	list_t *node = info->env;
