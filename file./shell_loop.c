@@ -1,7 +1,5 @@
 #include "shell.h"
 
-
-
 /**
  *  * hsh - Main shell loop.
  *   * @info: The parameter & return info struct.
