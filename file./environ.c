@@ -27,6 +27,8 @@ char *get_environment_var(info_t *info, const char *name)
     return (NULL);
 }
 
+
+
 int set_environment_var(info_t *info)
 {
     if (info->argc != 3)
