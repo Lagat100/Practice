@@ -44,6 +44,7 @@ ssize_t buffer_input(info_t *info, char **buf, size_t *len)
     return bytes_read;
 }
 
+
 /**
  * get_input - gets a line minus the newline
  * @info: parameter struct
@@ -89,6 +90,8 @@ ssize_t get_input(info_t *info)
     return bytes_read; /* return length of buffer from _getline() */
 }
 
+
+
 ssize_t read_buffer(info_t *info, char *buffer, size_t *i)
 {
     ssize_t bytes_read = 0;
@@ -100,6 +103,8 @@ ssize_t read_buffer(info_t *info, char *buffer, size_t *i)
         *i = bytes_read;
     return bytes_read;
 }
+
+
 
 int custom_getline(info_t *info, char **ptr, size_t *length)
 {
@@ -141,6 +146,8 @@ int custom_getline(info_t *info, char **ptr, size_t *length)
     *ptr = p;
     return bytes_read;
 }
+
+
 
 void handle_interrupt(__attribute__((unused))int signal_num)
 {
