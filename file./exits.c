@@ -30,6 +30,7 @@ char *_custom_strncpy(char *destination, char *source, int num)
     return (result);
 }
 
+
 /**
  **_custom_strncat - concatenates two strings
  *@destination: the first string
@@ -56,6 +57,8 @@ char *_custom_strncat(char *destination, char *source, int num)
         destination[i] = '\0';
     return (result);
 }
+
+
 
 char *_custom_strchr(char *str, char character)
 {
