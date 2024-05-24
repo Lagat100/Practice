@@ -24,6 +24,8 @@ char *retrieve_history_file(info_t *info)
 }
 
 
+
+
 int write_history(info_t *info)
 {
 	ssize_t fd;
@@ -46,6 +48,8 @@ int write_history(info_t *info)
 	close(fd);
 	return (1);
 }
+
+
 
 int read_history(info_t *info)
 {
@@ -110,6 +114,8 @@ int build_history_list(info_t *info, char *buf, int line_count)
 		info->history = node;
 	return (0);
 }
+
+
 
 int renumber_history(info_t *info)
 {
