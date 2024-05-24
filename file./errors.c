@@ -35,14 +35,8 @@ int print_error_character(char c)
     return (1);
 }
 
-/**
- * write_to_file_descriptor - writes the character c to the given fd
- * @c: The character to print
- * @fd: The file descriptor to write to
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
+
+
 int write_to_file_descriptor(char c, int fd)
 {
     static int i;
