@@ -131,13 +131,7 @@ int replace_vars(shell_info_t *info)
 	return (0);
 }
 
-/**
- *  * replace_string - replaces a string.
- *   * @old: address of the old string
- *    * @new: new string
- *     *
- *      * Return: 1 if replaced, 0 otherwise
- *       */
+
 int replace_string(char **old, char *new)
 {
 	free(*old);
