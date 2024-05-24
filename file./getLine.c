@@ -36,6 +36,8 @@ void configure_info(info_t *info, char **arguments)
 	}
 }
 
+
+
 void deallocate_info(info_t *info, int all)
 {
 	ffree(info->arguments_vector);
