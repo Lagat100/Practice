@@ -7,6 +7,7 @@ int display_history(info_t *info)
 }
 
 
+
 int remove_alias(info_t *info, char *str)
 {
     char *p, c;
@@ -24,6 +25,7 @@ int remove_alias(info_t *info, char *str)
 }
 
 
+
 int add_alias(info_t *info, char *str)
 {
     char *p;
@@ -37,6 +39,7 @@ int add_alias(info_t *info, char *str)
     remove_alias(info, str);
     return (add_node_end(&(info->alias), str, 0) == NULL);
 }
+
 
 
 int print_alias(list_t *node)
@@ -55,6 +58,8 @@ int print_alias(list_t *node)
     }
     return (1);
 }
+
+
 
 int handle_alias(info_t *info)
 {
