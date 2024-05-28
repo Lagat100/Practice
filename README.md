@@ -4,6 +4,5 @@
 
 - Just having fun here
 
-- Its all about getting to learn something different each day 
-
-
+- Its all about getting to learn something different each day
+- 
