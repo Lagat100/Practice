@@ -12,6 +12,7 @@ user = get_user_by_email('lagat@otlook.com')
 print(f"User: {user}")
 
 # Adding a data entry for the user
+
 if user:
     add_data_entry(user[0], 'Sample data entry')
     add_log(user[0], 'Added data entry')
