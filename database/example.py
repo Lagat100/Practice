@@ -3,9 +3,11 @@
 
 
 # Adding a new user
+
 add_user('Lagat', 'lagat@outlook.com', 'password123')
 
 # Retrieving user by email
+
 user = get_user_by_email('lagat@otlook.com')
 print(f"User: {user}")
 
