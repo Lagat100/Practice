@@ -17,6 +17,7 @@ if user:
     add_log(user[0], 'Added data entry')
 
 # Retrieving data entries for the user
+
 entries = get_data_entries_by_user(user[0])
 print(f"Data Entries: {entries}")
 
