@@ -1,0 +1,36 @@
+[
+    {
+      "name": "Wireless Bluetooth Headphones",
+      "description": "High-quality wireless headphones with noise-cancellation and long battery life.",
+      "price": 59.99,
+      
+      "stock": 150
+    },
+    {
+      "name": "Smartphone Stand",
+      "description": "Adjustable smartphone stand for desks, compatible with most phone models.",
+      "price": 12.99,
+      
+      "stock": 500
+    },
+    {
+      "name": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting and 7 programmable buttons.",
+      "price": 29.99,
+      
+      "stock": 200
+    },
+    {
+      "name": "USB-C Hub",
+      "description": "Multiport USB-C hub with HDMI, USB-A, SD card, and Ethernet support.",
+      "price": 39.99,
+      
+      "stock": 100
+    },
+    {
+      "name": "Portable Power Bank",
+      "description": "10,000mAh portable charger with fast-charging capabilities and dual USB ports.",
+      "price": 24.99,
+      
+      "stock": 300
+    }
